@@ -27,11 +27,7 @@ To build and test the URL shortener applicaition using Jenkins and deploy the UR
 4.  Click "Create role"
 5.  Under Trusted entity type, select "AWS Service"
 6.  Under Use Case, select "EC2"
-7.  "Next"
-8.  In Permission policies select  "AWSElasticBeanstalkWebTier"
-
-[Permissions Policies] Select:   "AWSElasticBeanstalkWebTier" & “AWSElasticBeanstalkWorkerTier”
-  
-  /Next
-
-Role Name:  Elastic-EC2/Create Role
+7.  Next
+8.  In Permission policies select  "AWSElasticBeanstalkWebTier" & “AWSElasticBeanstalkWorkerTier”
+9.  Next
+10.  In Role name enter "Elastic-EC2/Create Role"
